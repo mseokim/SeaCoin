@@ -8,24 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		0127310E2013285500367E2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127310D2013285500367E2C /* AppDelegate.swift */; };
-		012731152013285500367E2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 012731142013285500367E2C /* Assets.xcassets */; };
-		012731182013285500367E2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 012731162013285500367E2C /* LaunchScreen.storyboard */; };
 		012731202013290E00367E2C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127311F2013290E00367E2C /* LoginViewController.swift */; };
 		012731222013291700367E2C /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012731212013291700367E2C /* RegisterViewController.swift */; };
 		012731242013292700367E2C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012731232013292700367E2C /* MainViewController.swift */; };
 		012731262013297100367E2C /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012731252013297100367E2C /* UIColor.swift */; };
+		0127312C201385D500367E2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0127312B201385D500367E2C /* Assets.xcassets */; };
+		012731302013AEAE00367E2C /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127312F2013AEAE00367E2C /* LineChart.swift */; };
+		012731322013D64B00367E2C /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012731312013D64B00367E2C /* SplashViewController.swift */; };
+		012731342013DF3D00367E2C /* RegisterTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012731332013DF3D00367E2C /* RegisterTwoViewController.swift */; };
+		012731362013F14E00367E2C /* ReturnMoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012731352013F14E00367E2C /* ReturnMoneyViewController.swift */; };
+		012731382013F1EE00367E2C /* InterMoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012731372013F1EE00367E2C /* InterMoneyViewController.swift */; };
+		5E2882DC4B6BDDB2417D68A2 /* Pods_CeaCoin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D334FC4D4EA5F4D8DB3AF38B /* Pods_CeaCoin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0127310A2013285500367E2C /* CeaCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CeaCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0127310D2013285500367E2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		012731142013285500367E2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		012731172013285500367E2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		012731192013285500367E2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0127311F2013290E00367E2C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		012731212013291700367E2C /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		012731232013292700367E2C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		012731252013297100367E2C /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		0127312B201385D500367E2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0127312F2013AEAE00367E2C /* LineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
+		012731312013D64B00367E2C /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		012731332013DF3D00367E2C /* RegisterTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterTwoViewController.swift; sourceTree = "<group>"; };
+		012731352013F14E00367E2C /* ReturnMoneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnMoneyViewController.swift; sourceTree = "<group>"; };
+		012731372013F1EE00367E2C /* InterMoneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterMoneyViewController.swift; sourceTree = "<group>"; };
+		30D39468EFD31EC434EFF278 /* Pods-CeaCoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CeaCoin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CeaCoin/Pods-CeaCoin.debug.xcconfig"; sourceTree = "<group>"; };
+		48CB36D937CDCF3597EE5CE8 /* Pods-CeaCoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CeaCoin.release.xcconfig"; path = "Pods/Target Support Files/Pods-CeaCoin/Pods-CeaCoin.release.xcconfig"; sourceTree = "<group>"; };
+		D334FC4D4EA5F4D8DB3AF38B /* Pods_CeaCoin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CeaCoin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E2882DC4B6BDDB2417D68A2 /* Pods_CeaCoin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +57,8 @@
 			children = (
 				0127310C2013285500367E2C /* CeaCoin */,
 				0127310B2013285500367E2C /* Products */,
+				9CC4EBF2BDB4F74DB8C8F08E /* Pods */,
+				4A5FF843996E07DF31A7BF64 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,15 +74,36 @@
 			isa = PBXGroup;
 			children = (
 				0127310D2013285500367E2C /* AppDelegate.swift */,
-				012731142013285500367E2C /* Assets.xcassets */,
-				012731162013285500367E2C /* LaunchScreen.storyboard */,
+				0127312B201385D500367E2C /* Assets.xcassets */,
 				012731192013285500367E2C /* Info.plist */,
 				0127311F2013290E00367E2C /* LoginViewController.swift */,
 				012731212013291700367E2C /* RegisterViewController.swift */,
+				012731372013F1EE00367E2C /* InterMoneyViewController.swift */,
+				012731332013DF3D00367E2C /* RegisterTwoViewController.swift */,
 				012731232013292700367E2C /* MainViewController.swift */,
 				012731252013297100367E2C /* UIColor.swift */,
+				0127312F2013AEAE00367E2C /* LineChart.swift */,
+				012731312013D64B00367E2C /* SplashViewController.swift */,
+				012731352013F14E00367E2C /* ReturnMoneyViewController.swift */,
 			);
 			path = CeaCoin;
+			sourceTree = "<group>";
+		};
+		4A5FF843996E07DF31A7BF64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D334FC4D4EA5F4D8DB3AF38B /* Pods_CeaCoin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9CC4EBF2BDB4F74DB8C8F08E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30D39468EFD31EC434EFF278 /* Pods-CeaCoin.debug.xcconfig */,
+				48CB36D937CDCF3597EE5CE8 /* Pods-CeaCoin.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +113,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0127311C2013285500367E2C /* Build configuration list for PBXNativeTarget "CeaCoin" */;
 			buildPhases = (
+				345898581AEB0C5795424F0E /* [CP] Check Pods Manifest.lock */,
 				012731062013285400367E2C /* Sources */,
 				012731072013285400367E2C /* Frameworks */,
 				012731082013285400367E2C /* Resources */,
+				46D8E5D0002DDBE95A41D478 /* [CP] Embed Pods Frameworks */,
+				7CCEF31DBE259A2CCBF4D6A0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,38 +168,87 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				012731182013285500367E2C /* LaunchScreen.storyboard in Resources */,
-				012731152013285500367E2C /* Assets.xcassets in Resources */,
+				0127312C201385D500367E2C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		345898581AEB0C5795424F0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CeaCoin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46D8E5D0002DDBE95A41D478 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CeaCoin/Pods-CeaCoin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CeaCoin/Pods-CeaCoin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CCEF31DBE259A2CCBF4D6A0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CeaCoin/Pods-CeaCoin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		012731062013285400367E2C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				012731382013F1EE00367E2C /* InterMoneyViewController.swift in Sources */,
+				012731342013DF3D00367E2C /* RegisterTwoViewController.swift in Sources */,
 				012731222013291700367E2C /* RegisterViewController.swift in Sources */,
 				012731202013290E00367E2C /* LoginViewController.swift in Sources */,
+				012731302013AEAE00367E2C /* LineChart.swift in Sources */,
 				0127310E2013285500367E2C /* AppDelegate.swift in Sources */,
 				012731242013292700367E2C /* MainViewController.swift in Sources */,
+				012731322013D64B00367E2C /* SplashViewController.swift in Sources */,
+				012731362013F14E00367E2C /* ReturnMoneyViewController.swift in Sources */,
 				012731262013297100367E2C /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		012731162013285500367E2C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				012731172013285500367E2C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0127311A2013285500367E2C /* Debug */ = {
@@ -272,8 +360,10 @@
 		};
 		0127311D2013285500367E2C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30D39468EFD31EC434EFF278 /* Pods-CeaCoin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZESNLFKEBA;
 				INFOPLIST_FILE = CeaCoin/Info.plist;
@@ -287,8 +377,10 @@
 		};
 		0127311E2013285500367E2C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48CB36D937CDCF3597EE5CE8 /* Pods-CeaCoin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZESNLFKEBA;
 				INFOPLIST_FILE = CeaCoin/Info.plist;
